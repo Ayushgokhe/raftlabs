@@ -24,13 +24,13 @@ const App = () => {
       <div className='container'>
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2} sx={{ marginTop: '5px' }}>
-            <Grid item xs={2} sx={{ borderRight: '1px solid' }}>
+            <Grid className='remove1' item xs={2} sx={{ borderRight: '1px solid' }}>
               <Component1 />
             </Grid>
             <Grid item xs={7}>
               <Component2 />
             </Grid>
-            <Grid item xs={3}>
+            <Grid className='remove1' item xs={3}>
               <Component3 />
             </Grid>
           </Grid>
