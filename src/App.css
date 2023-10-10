@@ -304,12 +304,16 @@ td img {
 /*................. Media Query..................... */
 
 @media screen and (max-width:1230px) {
-  .css-mdua3f-MuiGrid-root {
+/*   .css-mdua3f-MuiGrid-root {
     display: none;
   }
 
   .css-1equabv-MuiGrid-root {
     display: none;
+  }
+  */
+  .remove1{
+    display:none;
   }
   .NavTab{
     display: block;
